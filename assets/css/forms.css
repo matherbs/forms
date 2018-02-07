@@ -1,3 +1,96 @@
 *{
-  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.connexion {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #2e4053;
+  color: #82e0aa;
+  border: 5px solid #82e0aa;
+  border-radius: 20px;
+}
+
+  /* Nav Sign */
+
+#nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav li {
+  text-align: center;
+  display: inline;
+  padding: 20px 0 20px 0;
+  width: 50%;
+}
+
+.signOn{
+  background-color: #82e0aa;
+  border-radius: 13px;
+}
+
+.signOff {
+  background-color: #2e4053;
+  border-radius: 13px;
+}
+
+.signOff:hover {
+  text-decoration: underline;
+}
+
+.close {
+  text-decoration: none;
+  color: #82e0aa;
+}
+
+.open {
+  color: #2e4053;
+}
+
+#signUp {
+  padding: 20px 0 20px 0;
+}
+
+#signUp h3, button {
+  margin: 10px;
+}
+
+#signIn {
+  padding: 20px 0 20px 0;
+}
+
+#signIn h3 {
+  margin: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+  /* Main Body */
+
+input, select, option {
+  width: 200px;
+  height: 25px;
+  border: 2px solid #82e0aa;
+  border-radius: 5px;
+
+}
+
+.submit {
+  width: 200px;
+  height: 40px;
+  margin: 30px 0 10px 0;
+  background-color: #82e0aa;
+  border-radius: 5px;
+  border: none;
+  color: white;
 }
